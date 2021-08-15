@@ -1,4 +1,12 @@
 // Assignment code here
+var upperCs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerCs = "abcdefghijklmnopqrstuvwxyz";
+var numbers = "0123456789";
+var splChars = "!#%$&'()*+,-./:;<=>?@[\]^_`{|}~";
+var passwordlgth;
+var
+
+
 
 
 // Get references to the #generate element
