@@ -22,5 +22,7 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
-[Password Generator]
+[Password Generator] (https://garciae89.github.io/your-password-is-incorrect/)
+
+Based on the user story and acceptance criteria I created variables, storing strings of uppercase and lowercase letters, special characters. Functions where created to guide the password length and what characters the user wants via prompt and confirms. A for loop was created and the code block used the charAt function to pull a random character from the string. 
 
