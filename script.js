@@ -42,7 +42,7 @@ function uppercase() {
    return splCheck;
  }
 
-//  create function to generate password 
+//  create function to generate password calls previous functions created
 
 function generatePassword(){
   pwLength();
@@ -75,7 +75,7 @@ function generatePassword(){
         characters += splChars;
 
     } 
-
+    //  for loop / code block run and will pull random character from string stored in variables using the charAt method, them randomize it with the math.random function
     for (var i = 0; i < passwordLgth; i++) {
         password += characters.charAt(Math.floor(Math.random() * characters.length));
     }
